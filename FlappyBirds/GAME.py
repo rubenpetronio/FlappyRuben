@@ -153,7 +153,7 @@ def disegna_oggetti():
     distanzax = FONT.render('distanzaX: '+ str(valiv.distanzax), 1, (0,0,0))
     SCHERMO.blit(distanzax, (5, 480))
     
-    vel_avanz = FONT.render('vel: '+ str(valiv.vel_avanz), 1, (0,0,0))
+    vel_avanz = FONT.render('velocita: '+ str(valiv.vel_avanz), 1, (0,0,0))
     SCHERMO.blit(vel_avanz, (5, 430))
 def hai_perso():
     print("hai perso") 
